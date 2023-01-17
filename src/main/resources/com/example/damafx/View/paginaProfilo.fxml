@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" styleClass="root" stylesheets="@cssGrafica.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.damafx.Controller.SchermataProfiloController">
+   <top>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../Immagini/scrittaDamaSchermataIniziale.png" />
+         </image>
+         <BorderPane.margin>
+            <Insets top="15.0" />
+         </BorderPane.margin>
+      </ImageView>
+   </top>
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView id="bottoneEsciProfilo" fx:id="bottoneEsciProfilo" fitHeight="53.0" fitWidth="125.0" layoutX="338.0" layoutY="606.0" onMouseClicked="#bottoneEsciProfiloClickHandler" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/scrittaEsci.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="65.0" fitWidth="210.0" layoutX="225.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/nicknamePng.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="163.0" layoutX="225.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/emailPng.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="351.0" layoutX="225.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/numeroVittoriePng.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="423.0" layoutX="189.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/ilTuoProfiloPng.png" />
+               </image>
+            </ImageView>
+            <Label id="labelNicknameProfilo" fx:id="labelNicknameProfilo" layoutX="448.0" layoutY="207.0" prefHeight="24.0" prefWidth="250.0" text="Label" />
+            <Label id="labelEmailProfilo" fx:id="labelEmailProfilo" layoutX="377.0" layoutY="272.0" prefHeight="30.0" prefWidth="366.0" text="Label" />
+            <Label id="labelNumeroVittorieProfilo" fx:id="labelNumeroVittorieProfilo" layoutX="590.0" layoutY="332.0" prefHeight="24.0" prefWidth="207.0" text="Label" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

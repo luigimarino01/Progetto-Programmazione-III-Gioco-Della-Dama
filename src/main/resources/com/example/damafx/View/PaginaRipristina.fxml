@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" stylesheets="@cssGrafica.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.damafx.Controller.SchermataRipristinaController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0">
+         <children>
+            <Button id="bottoneLogout" fx:id="bottoneEsciRipristina" layoutX="687.0" layoutY="634.0" mnemonicParsing="false" onAction="#bottoneEsciRipristinaClickHandler" prefHeight="67.0" prefWidth="78.0" stylesheets="@cssGrafica.css">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+            <Button id="bottoneSiRipristina" fx:id="bottoneSiRipristina" layoutX="175.0" layoutY="328.0" mnemonicParsing="false" onAction="#bottoneSiRipristinaClickHandler" prefHeight="89.0" prefWidth="116.0" stylesheets="@cssGrafica.css" text="SI">
+               <font>
+                  <Font size="56.0" />
+               </font>
+            </Button>
+            <Button id="bottoneNoRipristina" fx:id="bottoneNoRipristina" layoutX="479.0" layoutY="328.0" mnemonicParsing="false" onAction="#bottoneNoRipristinaClickHandler" prefHeight="89.0" prefWidth="116.0" stylesheets="@cssGrafica.css" text="NO">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="148.0" fitWidth="668.0" layoutX="66.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/scrittaRipristina.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../Immagini/scrittaDamaSchermataIniziale.png" />
+         </image>
+         <BorderPane.margin>
+            <Insets top="15.0" />
+         </BorderPane.margin>
+      </ImageView>
+   </top>
+</BorderPane>

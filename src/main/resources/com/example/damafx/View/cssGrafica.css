@@ -1,0 +1,331 @@
+.root{
+  -fx-background-image: url('../Immagini/sfondoLegno.jpg');
+  -fx-background-size: cover;
+}
+
+.sfondoScacchieraInPartita{
+    -fx-background-image: url('../Immagini/sfondoLegno.jpg');
+    -fx-background-size: cover;
+}
+
+#bottoneIniziaPartita {
+  -fx-background-color:
+          linear-gradient(#ffd65b, #e68400),
+          linear-gradient(#ffef84, #f2ba44),
+          linear-gradient(#ffea6a, #efaa22),
+          linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+          linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+  -fx-background-radius: 30;
+  -fx-background-insets: 0,1,2,3,0;
+  -fx-text-fill: #654b00;
+  -fx-font-weight: bold;
+  -fx-font-size: 14px;
+  -fx-padding: 10 20 10 20;
+}
+#bottoneIniziaPartita:hover {
+  -fx-background-color:
+          linear-gradient(#e68400, #ffd65b),
+          linear-gradient(#f2ba44, #ffef84),
+          linear-gradient(#efaa22, #ffea6a),
+          linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+          linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+  -fx-background-radius: 30;
+  -fx-background-insets: 0,1,2,3,0;
+  -fx-text-fill: #654b00;
+  -fx-font-weight: bold;
+  -fx-font-size: 14px;
+  -fx-padding: 10 20 10 20;
+}
+
+#bottoneLogin {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+#bottoneLogin:hover {
+    -fx-background-color:
+            linear-gradient(#e68400, #ffd65b),
+            linear-gradient(#f2ba44, #ffef84),
+            linear-gradient(#efaa22, #ffea6a),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+#bottoneRegistrati {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+#bottoneRegistrati:hover {
+    -fx-background-color:
+            linear-gradient(#e68400, #ffd65b),
+            linear-gradient(#f2ba44, #ffef84),
+            linear-gradient(#efaa22, #ffea6a),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+#bottoneSuono{
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-image: url('../Immagini/soundOn.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 70%;
+    -fx-background-position: center;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+
+}
+
+#bottoneIniziaPartita{
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-image: url('../Immagini/simboloGioca.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 50%;
+    -fx-background-position: center;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+#bottoneClassifica{
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-image: url('../Immagini/classificaPng.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 50%;
+    -fx-background-position: center;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+#bottoneProfilo{
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-image: url('../Immagini/avatarPng.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 50%;
+    -fx-background-position: center;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+#bottoneRegole{
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-image: url('../Immagini/regolePng.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 50%;
+    -fx-background-position: center;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+#bottoneLogout{
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-image: url('../Immagini/logout.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 60%;
+    -fx-background-position: center;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+
+#bottoneSuono:hover, #bottoneIniziaPartita:hover, #bottoneClassifica:hover,#bottoneProfilo:hover,#bottoneRegole:hover, #bottoneLogout:hover{
+    -fx-background-color:
+            linear-gradient(#e68400, #ffd65b),
+            linear-gradient(#f2ba44, #ffef84),
+            linear-gradient(#efaa22, #ffea6a),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color:
+            linear-gradient(#e68400, #ffd65b),
+            linear-gradient(#f2ba44, #ffef84),
+            linear-gradient(#efaa22, #ffea6a),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%);
+
+}
+.table-view{
+    -fx-background-color: transparent;
+    -fx-font-size: 20px;
+}
+.table-view . table-column{
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+    -fx-text-alignment: center;
+}
+
+.table-row-cell {
+    -fx-background-color: #93f9b911;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    -fx-text-alignment: center;
+}
+
+#labelNicknameProfilo, #labelEmailProfilo, #labelNumeroVittorieProfilo{
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#textRegole{
+    -fx-font-weight: bold;
+}
+
+#bottoneSiRipristina {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-padding: 10 20 10 20;
+}
+#bottoneSiRipristina:hover {
+    -fx-background-color:
+            linear-gradient(#e68400, #ffd65b),
+            linear-gradient(#f2ba44, #ffef84),
+            linear-gradient(#efaa22, #ffea6a),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-padding: 10 20 10 20;
+}
+
+#bottoneNoRipristina {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-padding: 10 20 10 20;
+}
+#bottoneNoRipristina:hover {
+    -fx-background-color:
+            linear-gradient(#e68400, #ffd65b),
+            linear-gradient(#f2ba44, #ffef84),
+            linear-gradient(#efaa22, #ffea6a),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+    -fx-padding: 10 20 10 20;
+}
+

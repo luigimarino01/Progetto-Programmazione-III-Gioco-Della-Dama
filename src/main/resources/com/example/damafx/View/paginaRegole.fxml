@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" styleClass="root" stylesheets="@cssGrafica.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.damafx.Controller.SchermataRegoleController">
+   <top>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../Immagini/scrittaDamaSchermataIniziale.png" />
+         </image>
+         <BorderPane.margin>
+            <Insets top="15.0" />
+         </BorderPane.margin>
+      </ImageView>
+   </top>
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView id="bottoneEsciRegole" fx:id="bottoneEsciRegole" fitHeight="53.0" fitWidth="125.0" layoutX="338.0" layoutY="645.0" onMouseClicked="#bottoneEsciRegoleClickHandler" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/scrittaEsci.png" />
+               </image>
+            </ImageView>
+            <Text id="textRegole" layoutX="26.0" layoutY="162.0" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La damiera si compone di 64 caselle alternate per colore, bianche e scure, e va posizionata con l'ultima casella in basso a destra di colore nero.Ciascun giocatore dispone all'inizio di 12 pedine, di colore diverso da quelle dell'avversario (bianche o nere), collocate sulle prime tre righe di caselle scure poste sul proprio lato della damiera. Il nero occupa le caselle dal n. 1 al n. 12, il bianco quelle dal n. 21 al n. 32. La scelta del colore fra i giocatori si effettua per sorteggio.Inizia a giocare sempre il bianco.La pedina si muove sempre in diagonale sulle caselle scure di una casella alla volta e soltanto in avanti. Quando una pedina raggiunge una delle caselle dell'ultima riga viene promossa, diventa dama e deve essere contraddistinta con la sovrapposizione di un'altra pedina prelevata tra quelle non in gioco.Ogni pedina può mangiare quelle avversarie che si trovano in avanti, sulla casella diagonale accanto alla propria e che abbiano la casella successiva libera. Dopo la presa, se incontrano in diagonale altre pedine con la successiva casella libera, si deve continuare a mangiare senza togliere la mano dalla pedina stessa. In tal caso la presa si chiama multipla. Le pedine prese vanno tolte dalla damiera.La dama si muove anch'essa di una casella alla volta, sempre in diagonale, in tutte le direzioni possibili, mangiando sia le pedine che le dame avversarie.In caso di presa è obbligatorio mangiare i pezzi. L'antica regola del &quot;soffio&quot;, ossia quella di catturare il pezzo avversario che pur avendone diritto, per distrazione o per scelta non aveva mangiato, è stata abolita dalla Federazione Dama nel 1934.Avendo più possibilità di presa si debbono rispettare obbligatoriamente nell'ordine le seguenti priorità:è obbligatorio mangiare dove ci sono più pezzi;a parità di pezzi da prendere, tra pedina e dama si è obbligati a mangiare la dama; inoltre se si può optare tra il mangiare di dama o di pedina è obbligatorio mangiare con la dama;la dama sceglie la presa dove si mangiano più dame;a parità  di condizioni si mangia dove s'incontra prima la dama avversaria.&quot;Pezzo toccato = Pezzo mosso&quot;: il giocatore che, nel proprio turno di gioco, tocca un proprio pezzo sulla damiera è obbligato a muoverlo.Se si vuole aggiustare un pezzo messo male sulla damiera bisogna prima avvertire l'avversario dichiarando &quot;accomodo&quot; o &quot;acconcio&quot; e attendere l'assenso dell'avversario.Si vince per abbandono dell'avversario, che si trova in palese difficoltà, o quando si catturano o si bloccano tutti i pezzi avversari.Si pareggia in una situazione di evidente equilibrio finale per accordo dei giocatori o per decisione dell'arbitro a seguito del conteggio di 40 mosse richiesto da uno dei due giocatori. Il conteggio delle mosse si azzera e riparte da capo tutte le volte che uno dei due giocatori muove una pedina o effettua una presa." wrappingWidth="749.13671875" />
+            <ImageView fitHeight="138.0" fitWidth="416.0" layoutX="193.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/regolamentoPng.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

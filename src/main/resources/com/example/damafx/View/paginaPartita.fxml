@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#mouseEnteredFinestra" prefHeight="800.0" prefWidth="800.0" stylesheets="@cssGrafica.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.damafx.Controller.SchermataPartitaController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="722.0" prefWidth="800.0">
+         <children>
+            <GridPane id="damiera" fx:id="damieraGrafica" alignment="CENTER" gridLinesVisible="true" layoutX="150.0" layoutY="100.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" prefHeight="500.0" prefWidth="500.0" style="-fx-border-color: black; -fx-border-width: 3;">
+                <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                </rowConstraints>
+                <children>
+                    <Pane fx:id="pane00" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" />
+                    <Pane fx:id="pane01" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="1" />
+                    <Pane fx:id="pane02" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="2" />
+                    <Pane fx:id="pane03" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="3" />
+                    <Pane fx:id="pane04" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="4" />
+                    <Pane fx:id="pane05" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="5" />
+                    <Pane fx:id="pane06" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="6" />
+                    <Pane fx:id="pane07" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="7" />
+                    <Pane fx:id="pane10" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.rowIndex="1" />
+                    <Pane fx:id="pane11" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                    <Pane fx:id="pane12" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                    <Pane fx:id="pane13" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                    <Pane fx:id="pane14" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                    <Pane fx:id="pane15" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                    <Pane fx:id="pane16" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                    <Pane fx:id="pane17" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+                    <Pane fx:id="pane20" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.rowIndex="2" />
+                    <Pane fx:id="pane21" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                    <Pane fx:id="pane22" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                    <Pane fx:id="pane23" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                    <Pane fx:id="pane24" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                    <Pane fx:id="pane25" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                  </Pane>
+                    <Pane fx:id="pane26" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                    <Pane fx:id="pane27" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                    <Pane fx:id="pane30" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.rowIndex="3" />
+                    <Pane fx:id="pane31" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                    <Pane fx:id="pane32" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                    <Pane fx:id="pane33" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                    <Pane fx:id="pane34" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                    <Pane fx:id="pane35" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                    <Pane fx:id="pane36" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                    <Pane fx:id="pane37" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                    <Pane fx:id="pane40" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.rowIndex="4" />
+                    <Pane fx:id="pane41" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                    <Pane fx:id="pane42" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                    <Pane fx:id="pane43" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                    <Pane fx:id="pane44" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                    <Pane fx:id="pane45" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                    <Pane fx:id="pane46" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                    <Pane fx:id="pane47" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                    <Pane fx:id="pane50" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.rowIndex="5" />
+                    <Pane fx:id="pane51" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                    <Pane fx:id="pane52" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                    <Pane fx:id="pane53" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                    <Pane fx:id="pane54" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                    <Pane fx:id="pane55" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                    <Pane fx:id="pane56" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                    <Pane fx:id="pane57" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+                    <Pane fx:id="pane60" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.rowIndex="6" />
+                    <Pane fx:id="pane61" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                    <Pane fx:id="pane62" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                    <Pane fx:id="pane63" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                    <Pane fx:id="pane64" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                    <Pane fx:id="pane65" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                    <Pane fx:id="pane66" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                    <Pane fx:id="pane67" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                    <Pane fx:id="pane70" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.rowIndex="7" />
+                    <Pane fx:id="pane71" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                    <Pane fx:id="pane72" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                    <Pane fx:id="pane73" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                    <Pane fx:id="pane74" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                    <Pane fx:id="pane75" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                    <Pane fx:id="pane76" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C19A6B;" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                    <Pane fx:id="pane77" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+
+                </children>
+            </GridPane>
+            <ImageView id="vittoriaPng" fx:id="vittoriaPng" fitHeight="72.0" fitWidth="250.0" layoutX="275.0" layoutY="26.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/vittoriaPng.png" />
+               </image>
+            </ImageView>
+            <ImageView id="sconfittaPng" fx:id="sconfittaPng" fitHeight="65.0" fitWidth="270.0" layoutX="275.0" layoutY="26.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/sconfittaPng.png" />
+               </image>
+            </ImageView>
+            <ImageView id="bottoneEsci" fx:id="bottoneEsci" fitHeight="48.0" fitWidth="176.0" layoutX="335.0" layoutY="643.0" onMouseClicked="#bottoneEsciClickHandler" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/scrittaEsci.png" />
+               </image>
+            </ImageView>
+            <Button id="bottoneLogout" fx:id="bottoneEsciHome" layoutX="687.0" layoutY="634.0" mnemonicParsing="false" onAction="#bottoneEsciHomeClickHandler" prefHeight="67.0" prefWidth="78.0" stylesheets="@cssGrafica.css">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../Immagini/scrittaDamaSchermataIniziale.png" />
+         </image>
+         <BorderPane.margin>
+            <Insets top="15.0" />
+         </BorderPane.margin>
+      </ImageView>
+   </top>
+</BorderPane>

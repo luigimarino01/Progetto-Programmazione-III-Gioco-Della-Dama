@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" styleClass="root" stylesheets="@cssGrafica.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.damafx.Controller.SchermataRegistratiController">
+   <top>
+      <ImageView fitHeight="131.0" fitWidth="420.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../Immagini/scrittaBenvenuto.png" />
+         </image>
+         <BorderPane.margin>
+            <Insets top="15.0" />
+         </BorderPane.margin>
+      </ImageView>
+   </top>
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField id="textFieldEmail" fx:id="textFieldEmail" layoutX="310.0" layoutY="441.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="183.0" promptText="Email" />
+            <ImageView fitHeight="44.0" fitWidth="193.0" layoutX="305.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/scrittaNickname.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="109.0" layoutX="345.0" layoutY="394.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/scrittaEmail.png" />
+               </image>
+            </ImageView>
+            <Button id="bottoneRegistrati" fx:id="bottoneRegistrati" layoutX="315.0" layoutY="506.0" mnemonicParsing="false" onAction="#bottoneRegistratiClickHandler" prefHeight="44.0" prefWidth="163.0" stylesheets="@cssGrafica.css" text="REGISTRATI" />
+            <TextField id="textFieldNickname" fx:id="textFieldNickname" layoutX="310.0" layoutY="336.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="183.0" promptText="Nickname" />
+            <TextField id="textFieldCognome" fx:id="textFieldCognome" layoutX="308.0" layoutY="235.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="183.0" promptText="Cognome" />
+            <TextField id="textFieldNome" fx:id="textFieldNome" layoutX="308.0" layoutY="130.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="183.0" promptText="Nome" />
+            <ImageView fitHeight="36.0" fitWidth="150.0" layoutX="341.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/scrittaNome.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="182.0" layoutX="309.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/scrittaCognome.png" />
+               </image>
+            </ImageView>
+            <ImageView id="bottoneEsci" fx:id="bottoneEsci" fitHeight="53.0" fitWidth="125.0" layoutX="339.0" layoutY="630.0" onMouseClicked="#bottoneEsciClickHandler" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/scrittaEsci.png" />
+               </image>
+            </ImageView>
+            <ImageView id="nicknameInUso" fx:id="nicknameInUso" fitHeight="96.0" fitWidth="347.0" layoutX="232.0" layoutY="36.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/nicknameInUso.png" />
+               </image>
+            </ImageView>
+            <ImageView id="compilazioneErrata" fx:id="compilazioneErrata" fitHeight="96.0" fitWidth="347.0" layoutX="227.0" layoutY="36.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/compilazioneErrata.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
